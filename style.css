@@ -9,3 +9,72 @@ html,body{
     width: 100%;
 }
 
+/* navbar start */
+
+.navbar-main
+{
+    width: 100%;
+    height: 85px;
+    background-color: #273053;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-main .navbar-parent svg
+{
+    height: 45px;
+    width: 45px;
+    margin-left: 130px;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.navbar-main .navbar-parent h1
+{
+    color: #0DCAF0;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.navbar-main .navbar-parent
+{
+    display: flex;
+    margin-top: 15px;
+    
+} 
+
+.navbar-main .navbar-parent ul
+{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 17px;
+}
+
+.navbar-main .navbar-parent ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.navbar-main .navbar-parent ul li a:hover
+{
+    color: #0DCAF0;
+}
+
+.navbar-main .navbar-parent .navbar-btn
+{
+    text-align: center;
+    text-decoration: none;
+    background-color:#0d6efd;
+    color: white;
+    font-weight: 700;
+    height: 45px;
+    width: 130px;
+    border-radius: 50px;
+    margin-top: 2px;
+    margin-left: 50px;
+    padding-top: 13px;
+}
+/* navbar end */
