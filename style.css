@@ -244,8 +244,242 @@ html,body{
 
 
 
-
-
-
-
 /* home section end */
+
+/* venu starts */
+#section6
+{
+    margin-top: 229px;    
+    border: 2px solid red;
+    background-color: #f0f8ff;
+    height: 800px;
+    padding-top: 48px;
+    padding-bottom: 76px;
+    /* bo */
+   
+}
+
+#section6 .venucontainer
+{
+ /* border: 2px dashed black; */
+ height: 500px;
+ width: 100%;
+}
+#section6 .venucontainer .venurow .vhead
+{
+    /* border: 2px solid blue; */
+    height: 80px;
+    font-size: 32px;
+    width:100%;
+    /* margin: 0px 85px; */
+}
+
+#section6 .venucontainer .venurow
+{
+    /* border:2px solid yellowgreen; */
+    height: 500px;
+    margin: 0px 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section6 .venucontainer .venurow .vleft
+{
+    /* border: 2px solid rgb(243, 113, 135); */
+    height: 367px;
+    width: 49%;
+    border-radius: 21px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+iframe
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 21px;
+}
+
+#section6 .venucontainer .venurow .vright
+{
+    /* border: 2px solid rgb(243, 113, 135); */
+    height: 352px;
+    width: 49%;
+    border-radius: 21px;
+     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;;
+    /* margin-top: 5px; */
+}
+
+#section6 .venucontainer .venurow .vright .vbox1
+{
+    /* border: 2px solid goldenrod; */
+    background-color: #273053;
+    height: 100px;
+    border-radius:21px 21px 0px 0px;
+    font-size: 30px;
+    color: white;
+    padding: 16px 38px;
+}
+
+#section6 .venucontainer .venurow .vright .vparent
+{
+    /* border: 2px solid purple; */
+    height:249px ;
+    padding: 46px;
+    border-radius:0px 0px 21px 21px ;
+}
+#section6 .venucontainer .venurow .vright .vparent .libox1 ul li{
+    list-style: none;
+    
+}
+
+.venuloc
+{
+   display: flex;
+   justify-content: space-between;
+    font-size: 26px;
+    font-weight: 700;
+}
+.venuloc i
+{
+    font-size: 39px;
+    color: rgb(140, 136, 136);
+}
+
+ol li
+{
+    list-style: none;
+    line-height: 2;
+    font-size: 22px;
+    color: #717275;
+    font-weight: 700;
+}
+
+ol li:hover
+{
+    color: #0dcaf0;
+}
+
+
+#section8
+{
+    /* border: 2px solid red; */
+
+    height: 736px;
+    background-image: url("https://templatemo.com/templates/templatemo_575_leadership_event/images/maria-stewart-p4tj0g-_aMM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#section8 .contactbox
+{
+    /* border:2px solid blue; */
+    height: 648px;
+    width: 85%;
+    margin: 0px 116px;
+    padding: 83px 214px;
+   
+   
+}
+#section8 .contactbox .formbox
+{
+    /* border: 3px groove yellow; */
+    height: 561px;
+    width: 100%;
+    background-color: white;
+    /* margin-top: 44px; */
+    /* padding: 20px 5px; */
+}
+
+#section8 .contactbox .formbox form
+{
+    /* border: 2px solid palevioletred; */
+    height: 108px;
+    background-color: #273053;
+    padding: 0px 5px;
+    /* border-radius: 20px 20px 0px 0px; */
+
+}
+.formh2
+{
+    color: white;
+    font-size:43px;  
+    font-family: 'DM Sans', sans-serif;
+    font-weight:600;
+    padding:27px 67px;
+}
+#section8 .contactbox .formbox .formrow
+{
+    /* border: 4px dotted black; */
+    margin-top: 44px;
+    height: 406px;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.formclas
+{
+  height: 55px;
+  width: 234px;
+    border-radius: 3px;
+    background-color:#f0f8ffeb;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 22px;
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+#section8 .contactbox .formbox .formrow .control
+{
+    background-color:#f0f8ffeb; 
+    /* border: 2px solid black; */
+    border: none;
+    margin-top :29px;
+    margin-left: 31px;
+    border-radius: 5px;
+    padding: 21px 37px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-control
+{
+    background-color:#0dcaf0;
+    border-radius: 100px;
+    color: white;
+    font-weight: var(--font-weight-bold);
+    transition: all 0.3s;
+    margin-bottom: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-left: 37px;
+    padding: 18px 358px;
+}
+
+.form-control:hover
+{
+    background-color: #273053;
+    color: #0dcaf0;
+}
+
+.formclas:focus
+{
+    border: 3px solid #bad4ec;
+    border-radius: 5px;
+}
+#section8 .contactbox .formbox .formrow .control:focus
+{
+    border: 3px solid #bad4ec;
+    border-radius: 5px;
+}
+/* venu ends */
